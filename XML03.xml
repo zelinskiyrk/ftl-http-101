@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<school>
+    <lessons>
+        <lesson>
+            <name>GIT</name>
+            <description>Control version</description>
+            <required>true</required>
+            <task>task001</task>
+            <task>task002</task>
+        </lesson>
+    </lessons>
+    <tasks>
+        <task id="task001">
+            <name>Что такое GIT?</name>
+            <questions>
+                <question>
+                    <questionText>Дайте определение GIT</questionText>
+                    <answer>GIT это система контроля версий</answer>
+                </question>
+                <question>
+                    <questionText>Нужно ли разработчику уметь работать с GIT</questionText>
+                    <answer>Да</answer>
+                </question>
+            </questions>
+            <required>true</required>
+        </task>
+        <task id="task002">
+            <questions>
+                <question>
+                    <questionText>Какие хостинги GIT Вы знаете?</questionText>
+                    <answer>github</answer>
+                    <answer>bitbucket</answer>
+                </question>
+                <question>
+                    <questionText>Вы создали аккаунт на github, как это указано в первом задании?</questionText>
+                    <answer>Да</answer>
+                </question>
+            </questions>
+            <required>false</required>
+        </task>
+    </tasks>
+</school>
