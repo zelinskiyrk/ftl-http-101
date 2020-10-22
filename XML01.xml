@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<food>
+	<category>
+		<name>Роллы</name>
+		<description>Рис и начинка из морепродуктов</description>
+		<image src="http://oursite.com/roll.jpg"></image>
+		<parentsCategory>Меню</parentsCategory>
+	</category>
+	<category>
+		<name>Супы</name>
+		<description>Супы по японским рецептам</description>
+		<image src="http://oursite.com/soup.jpg"></image>
+		<parentsCategory>Меню</parentsCategory>
+	</category>
+	<category>
+		<name>Воки</name>
+		<description>Вок-лапша</description>
+		<image src="http://oursite.com/vok.jpg"></image>
+		<parentsCategory>Меню</parentsCategory>
+	</category>
+	<product>
+		<name>Филадельфия</name>
+		<description>Ролл с начинкой из лосося</description>
+		<image src="http://oursite.com/philadelphia1.jpg"></image>
+		<image src="http://oursite.com/philadelphia2.jpg"></image>
+		<image src="http://oursite.com/philadelphia3.jpg"></image>
+		<category>Роллы</category>
+		<price currency="RUB">50</price>
+	</product>
+	<product>
+		<name>Калифорния</name>
+		<description>Ролл с начинкой из креветки</description>
+		<image src="http://oursite.com/californy1.jpg"></image>
+		<image src="http://oursite.com/californy2.jpg"></image>
+		<image src="http://oursite.com/californy3.jpg"></image>
+		<category>Роллы</category>
+		<price currency="RUB">70</price>
+	</product>
+	<product>
+		<name>Мисо</name>
+		<description>Суп мисо с лососем</description>
+		<image src="http://oursite.com/miso1.jpg"></image>
+		<image src="http://oursite.com/miso2.jpg"></image>
+		<image src="http://oursite.com/miso3.jpg"></image>
+		<category>Супы</category>
+		<price currency="RUB">70</price>
+	</product>
+</food>
