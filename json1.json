@@ -1,0 +1,68 @@
+{
+  "food": {
+    "category": [
+      {
+        "name": "Роллы",
+        "description": "Рис и начинка из морепродуктов",
+        "image": { "-src": "http://oursite.com/roll.jpg" },
+        "parentsCategory": "Меню"
+      },
+      {
+        "name": "Супы",
+        "description": "Супы по японским рецептам",
+        "image": { "-src": "http://oursite.com/soup.jpg" },
+        "parentsCategory": "Меню"
+      },
+      {
+        "name": "Воки",
+        "description": "Вок-лапша",
+        "image": { "-src": "http://oursite.com/vok.jpg" },
+        "parentsCategory": "Меню"
+      }
+    ],
+    "product": [
+      {
+        "name": "Филадельфия",
+        "description": "Ролл с начинкой из лосося",
+        "image": [
+          { "-src": "http://oursite.com/philadelphia1.jpg" },
+          { "-src": "http://oursite.com/philadelphia2.jpg" },
+          { "-src": "http://oursite.com/philadelphia3.jpg" }
+        ],
+        "category": "Роллы",
+        "price": {
+          "-currency": "RUB",
+          "#text": "50"
+        }
+      },
+      {
+        "name": "Калифорния",
+        "description": "Ролл с начинкой из креветки",
+        "image": [
+          { "-src": "http://oursite.com/californy1.jpg" },
+          { "-src": "http://oursite.com/californy2.jpg" },
+          { "-src": "http://oursite.com/californy3.jpg" }
+        ],
+        "category": "Роллы",
+        "price": {
+          "-currency": "RUB",
+          "#text": "70"
+        }
+      },
+      {
+        "name": "Мисо",
+        "description": "Суп мисо с лососем",
+        "image": [
+          { "-src": "http://oursite.com/miso1.jpg" },
+          { "-src": "http://oursite.com/miso2.jpg" },
+          { "-src": "http://oursite.com/miso3.jpg" }
+        ],
+        "category": "Супы",
+        "price": {
+          "-currency": "RUB",
+          "#text": "70"
+        }
+      }
+    ]
+  }
+}
