@@ -1,0 +1,55 @@
+{
+  "school": {
+    "lessons": {
+      "lesson": {
+        "name": "GIT",
+        "description": "Control version",
+        "required": "true",
+        "task": [
+          "task001",
+          "task002"
+        ]
+      }
+    },
+    "tasks": {
+      "task": [
+        {
+          "-id": "task001",
+          "name": "Что такое GIT?",
+          "questions": {
+            "question": [
+              {
+                "questionText": "Дайте определение GIT",
+                "answer": "GIT это система контроля версий"
+              },
+              {
+                "questionText": "Нужно ли разработчику уметь работать с GIT",
+                "answer": "Да"
+              }
+            ]
+          },
+          "required": "true"
+        },
+        {
+          "-id": "task002",
+          "questions": {
+            "question": [
+              {
+                "questionText": "Какие хостинги GIT Вы знаете?",
+                "answer": [
+                  "github",
+                  "bitbucket"
+                ]
+              },
+              {
+                "questionText": "Вы создали аккаунт на github, как это указано в первом задании?",
+                "answer": "Да"
+              }
+            ]
+          },
+          "required": "false"
+        }
+      ]
+    }
+  }
+}
